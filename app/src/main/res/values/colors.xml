@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- defaults -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- user-defined -->
+    <color name="vidiaries">#d6c278</color>
+    <color name="vidiaries_dark">#c6aa42</color>
+    <color name="vidiaries_light">#e8dcb2</color>
+    <!-- Venus 5 -->
+    <color name="Nyotengu">#161224</color>
+    <color name="Helena">#fce693</color>
+    <color name="Luna">#f0d2d4</color>
+    <color name="Misaki">#a88255</color>
+    <color name="Elise">#eda2ae</color>
+</resources>

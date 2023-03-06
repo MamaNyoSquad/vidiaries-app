@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Venus Island Diaries</string>
+    <string name="appSubTitle">Official Publication Sheet</string>
+    <!-- insideStory1 -->
+    <string name="btnMainStory">Click here to read the Main Story that\'s in progress.</string>
+    <string name="insideStory1">Deep Arrogance - Nagisa\'s Inside Story</string>
+    <string name="insideStory1_title">Deep Arrogance</string>
+    <string name="insideStory1_desc">Nagisa blatantly expresses her desire of disgust the first time she came to the Venus Island, to try and convince her sister to leave immediately. Albeit apologized for what she did, it did come to the conclusion that her constant arrogance over the course became the grounds for some... rather bad events. Could the new Ona-san help her with her situation and put an end to her constant despair?</string>
+    <!-- insideStory2 -->
+    <string name="insideStory2">Admirant of the Past - Fiona\'s Inside Story</string>
+    <string name="insideStory2_title">Admirant of the Past</string>
+    <string name="insideStory2_desc">Browsing through the biography book were some of her interesting experiences at the island, including her deep affection, revealing her nature of being an admirer. Admitting that it was the previous Owner whom she admired, how could she handle the stresses of being with him back to her faraway home?</string>
+    <!-- copyright -->
+    <string name="copyright">Published under #MamaNyoSquad Publishing</string>
+    <string name="license">Licensed under CC-BY 4.0 and above</string>
+</resources>

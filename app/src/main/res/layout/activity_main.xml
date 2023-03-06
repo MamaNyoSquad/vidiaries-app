@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="95dp" />
+
+            <TextView
+                android:id="@+id/appTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/eb_garamond"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textColor="@color/vidiaries"
+                android:textSize="38sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/appSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/eb_garamond"
+                android:text="@string/appSubTitle"
+                android:textAlignment="center"
+                android:textColor="@color/vidiaries"
+                android:textSize="19sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="47.5dp" />
+
+            <Button
+                android:id="@+id/btnMainStoryRedirect"
+                android:layout_width="332.5dp"
+                android:layout_height="142.5dp"
+                android:fontFamily="@font/eb_garamond"
+                android:text="@string/btnMainStory"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="95dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/insideStory1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/vidiaries"
+                app:cardCornerRadius="19dp"
+                app:cardElevation="4.75dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/insideStory1_head"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        card_view:srcCompat="@drawable/insidestory1"
+                        android:contentDescription="@string/insideStory1" />
+
+                    <TextView
+                        android:id="@+id/insideStory1_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/eb_garamond"
+                        android:paddingLeft="19dp"
+                        android:paddingTop="19dp"
+                        android:paddingRight="19dp"
+                        android:paddingBottom="9.5dp"
+                        android:text="@string/insideStory1_title"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/white"
+                        android:textSize="28.5sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/insideStory1_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/eb_garamond"
+                        android:paddingLeft="19dp"
+                        android:paddingRight="19dp"
+                        android:paddingBottom="19dp"
+                        android:text="@string/insideStory1_desc"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/white"
+                        android:textSize="14.25sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="47.5dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/insideStory2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/vidiaries"
+                card_view:cardCornerRadius="19dp"
+                card_view:cardElevation="4.75dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/insideStory2_head"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/insideStory2"
+                        android:scaleType="fitXY"
+                        card_view:srcCompat="@drawable/insidestory2" />
+
+                    <TextView
+                        android:id="@+id/insideStory2_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/eb_garamond"
+                        android:paddingLeft="19dp"
+                        android:paddingTop="19dp"
+                        android:paddingRight="19dp"
+                        android:paddingBottom="9.5dp"
+                        android:text="@string/insideStory2_title"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/white"
+                        android:textSize="28.5sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/insideStory2_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/eb_garamond"
+                        android:paddingLeft="19dp"
+                        android:paddingRight="19dp"
+                        android:paddingBottom="19dp"
+                        android:text="@string/insideStory2_desc"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/white"
+                        android:textSize="14.25sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="95dp" />
+
+            <TextView
+                android:id="@+id/copyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/eb_garamond"
+                android:text="@string/copyright"
+                android:textAlignment="center"
+                android:textColor="@color/vidiaries"
+                android:textSize="14.25sp" />
+
+            <TextView
+                android:id="@+id/license"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/eb_garamond"
+                android:text="@string/license"
+                android:textAlignment="center"
+                android:textColor="@color/vidiaries"
+                android:textSize="14.25sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="47.5dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
