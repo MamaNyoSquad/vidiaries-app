@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnMainStory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:clickable="true"
+        android:contentDescription="@string/btnMainStory"
+        android:focusable="true"
+        android:src="@drawable/vidiaries_icon"
+        android:tooltipText="Read the Main Story"
+        app:backgroundTint="@color/Nyotengu"
+        app:elevation="4.75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:tint="@color/vidiaries" />
+
     <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,24 +69,6 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="47.5dp" />
-
-            <Button
-                android:id="@+id/btnMainStoryRedirect"
-                android:layout_width="332.5dp"
-                android:layout_height="142.5dp"
-                android:fontFamily="@font/eb_garamond"
-                android:text="@string/btnMainStory"
-                android:textAlignment="center"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:textSize="19sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <Space
-                android:layout_width="match_parent"
                 android:layout_height="95dp" />
 
             <androidx.cardview.widget.CardView
@@ -86,9 +89,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
+                        android:contentDescription="@string/insideStory1"
                         android:scaleType="fitXY"
-                        card_view:srcCompat="@drawable/insidestory1"
-                        android:contentDescription="@string/insideStory1" />
+                        card_view:srcCompat="@drawable/insidestory1" />
 
                     <TextView
                         android:id="@+id/insideStory1_title"
@@ -112,12 +115,31 @@
                         android:fontFamily="@font/eb_garamond"
                         android:paddingLeft="19dp"
                         android:paddingRight="19dp"
-                        android:paddingBottom="19dp"
+                        android:paddingBottom="9.5dp"
                         android:text="@string/insideStory1_desc"
                         android:textAlignment="viewStart"
                         android:textColor="@color/white"
                         android:textSize="14.25sp" />
+
+                    <Button
+                        android:id="@+id/btnInsideStory1"
+                        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="9.5dp"
+                        android:layout_marginBottom="9.5dp"
+                        android:fontFamily="@font/eb_garamond"
+                        android:gravity="center"
+                        android:text="@string/btnRead"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="14.25sp"
+                        android:textStyle="bold"
+                        app:icon="@drawable/book"
+                        app:iconTint="@color/white" />
+
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
 
             <Space
@@ -168,11 +190,250 @@
                         android:fontFamily="@font/eb_garamond"
                         android:paddingLeft="19dp"
                         android:paddingRight="19dp"
-                        android:paddingBottom="19dp"
+                        android:paddingBottom="9.5dp"
                         android:text="@string/insideStory2_desc"
                         android:textAlignment="viewStart"
                         android:textColor="@color/white"
                         android:textSize="14.25sp" />
+
+                    <Button
+                        android:id="@+id/btnInsideStory2"
+                        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="9.5dp"
+                        android:layout_marginBottom="9.5dp"
+                        android:fontFamily="@font/eb_garamond"
+                        android:gravity="center"
+                        android:text="@string/btnRead"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="14.25sp"
+                        android:textStyle="bold"
+                        card_view:icon="@drawable/book"
+                        card_view:iconTint="@color/white" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="47.5dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/insideStory3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/vidiaries"
+                card_view:cardCornerRadius="19dp"
+                card_view:cardElevation="4.75dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/insideStory3_head"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/insideStory3"
+                        android:scaleType="fitXY"
+                        card_view:srcCompat="@drawable/insidestory3" />
+
+                    <TextView
+                        android:id="@+id/insideStory3_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/eb_garamond"
+                        android:paddingLeft="19dp"
+                        android:paddingTop="19dp"
+                        android:paddingRight="19dp"
+                        android:paddingBottom="9.5dp"
+                        android:text="@string/insideStory3_title"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/white"
+                        android:textSize="28.5sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/insideStory3_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/eb_garamond"
+                        android:paddingLeft="19dp"
+                        android:paddingRight="19dp"
+                        android:paddingBottom="9.5dp"
+                        android:text="@string/insideStory3_desc"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/white"
+                        android:textSize="14.25sp" />
+
+                    <Button
+                        android:id="@+id/btnInsideStory3"
+                        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="9.5dp"
+                        android:layout_marginBottom="9.5dp"
+                        android:fontFamily="@font/eb_garamond"
+                        android:gravity="center"
+                        android:text="@string/btnRead"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="14.25sp"
+                        android:textStyle="bold"
+                        card_view:icon="@drawable/book"
+                        card_view:iconTint="@color/white" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="47.5dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/insideStory4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/vidiaries"
+                card_view:cardCornerRadius="19dp"
+                card_view:cardElevation="4.75dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/insideStory4_head"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/insideStory4"
+                        android:scaleType="fitXY"
+                        card_view:srcCompat="@drawable/insidestory4" />
+
+                    <TextView
+                        android:id="@+id/insideStory4_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/eb_garamond"
+                        android:paddingLeft="19dp"
+                        android:paddingTop="19dp"
+                        android:paddingRight="19dp"
+                        android:paddingBottom="9.5dp"
+                        android:text="@string/insideStory4_title"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/white"
+                        android:textSize="28.5sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/insideStory4_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/eb_garamond"
+                        android:paddingLeft="19dp"
+                        android:paddingRight="19dp"
+                        android:paddingBottom="9.5dp"
+                        android:text="@string/insideStory4_desc"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/white"
+                        android:textSize="14.25sp" />
+
+                    <Button
+                        android:id="@+id/btnInsideStory4"
+                        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="9.5dp"
+                        android:layout_marginBottom="9.5dp"
+                        android:fontFamily="@font/eb_garamond"
+                        android:gravity="center"
+                        android:text="@string/btnRead"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="14.25sp"
+                        android:textStyle="bold"
+                        card_view:icon="@drawable/book"
+                        card_view:iconTint="@color/white" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="47.5dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/insideStory5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardBackgroundColor="@color/vidiaries"
+                card_view:cardCornerRadius="19dp"
+                card_view:cardElevation="4.75dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/insideStory5_head"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/insideStory5"
+                        android:scaleType="fitXY"
+                        card_view:srcCompat="@drawable/insidestory5" />
+
+                    <TextView
+                        android:id="@+id/insideStory5_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/eb_garamond"
+                        android:paddingLeft="19dp"
+                        android:paddingTop="19dp"
+                        android:paddingRight="19dp"
+                        android:paddingBottom="9.5dp"
+                        android:text="@string/insideStory5_title"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/white"
+                        android:textSize="28.5sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/insideStory5_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/eb_garamond"
+                        android:paddingLeft="19dp"
+                        android:paddingRight="19dp"
+                        android:paddingBottom="9.5dp"
+                        android:text="@string/insideStory5_desc"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/white"
+                        android:textSize="14.25sp" />
+
+                    <Button
+                        android:id="@+id/btnInsideStory5"
+                        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="9.5dp"
+                        android:layout_marginBottom="9.5dp"
+                        android:fontFamily="@font/eb_garamond"
+                        android:gravity="center"
+                        android:text="@string/btnRead"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="14.25sp"
+                        android:textStyle="bold"
+                        card_view:icon="@drawable/book"
+                        card_view:iconTint="@color/white" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -200,6 +461,25 @@
                 android:textAlignment="center"
                 android:textColor="@color/vidiaries"
                 android:textSize="14.25sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="47.5dp" />
+
+            <Button
+                android:id="@+id/btnMITLicense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/MITred"
+                android:elevation="4.75dp"
+                android:paddingLeft="19dp"
+                android:paddingTop="9.5dp"
+                android:paddingRight="19dp"
+                android:paddingBottom="9.5dp"
+                android:text="@string/mitLicense"
+                android:textSize="14.25sp"
+                android:textStyle="bold"
+                app:icon="@drawable/mit" />
 
             <Space
                 android:layout_width="match_parent"

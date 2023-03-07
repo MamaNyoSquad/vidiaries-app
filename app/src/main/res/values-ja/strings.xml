@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appSubTitle">公式発表シート</string>
+    <string name="btnMainStory">現在進行中のメインストーリーはこちら。</string>
+    <string name="insideStory1">深い傲慢～なぎさの内面物語</string>
+    <string name="insideStory1_title">深い傲慢</string>
+    <string name="insideStory1_desc">渚は初めてヴィーナスアイランドに来たとき、姉を説得してすぐに帰ってもらおうと、露骨に嫌悪感をあらわにした。謝罪はされたものの、傲慢な態度を取り続けたことが、かえって禍根を残すことになった。新しいオーナーさんは、彼女の状況を改善し、絶望的な状況に終止符を打つことができるだろうか？</string>
+    <string name="insideStory2">過去の提督～フィオナの内面物語</string>
+    <string name="insideStory2_title">過去の提督</string>
+    <string name="insideStory2_desc">伝記を読むと、島での興味深い体験談や、深い愛情など、彼女の \"憧れ \"の性質がよくわかります。憧れていたのは前オーナーだったというのに、遠く離れた故郷で一緒にいるストレスをどう処理するのか？</string>
+    <string name="insideStory3">現在進行形の提督～つくしの内面物語</string>
+    <string name="insideStory3_title">現在進行形の提督</string>
+    <string name="insideStory3_desc">パーティに続くのは、元観光客が暴露したくない秘密だ。しかし、彼女の秘密は、行く先々で新しいオーナーにどう明かされるのだろうか？</string>
+    <string name="insideStory4">未来の提唱者～女天狗の内面物語</string>
+    <string name="insideStory4_title">未来の提唱者</string>
+    <string name="insideStory4_desc">女天狗の誕生日を目前に控え、新オーナーが金星島のために3人の諭吉を助けるという舞台が用意された？</string>
+    <string name="insideStory5">すべてが闇に包まれた～ルナの内面物語</string>
+    <string name="insideStory5_title">すべてが闇に包まれた</string>
+    <string name="insideStory5_desc">ブラックアウトの影響で、すべての作戦が停止してしまった。ルナの力を借りて、残照を乗り切ることができるのか？</string>
+    <string name="copyright">発行：「＃ママ女分隊出版」</string>
+    <string name="license">CC-BY 4.0以上でのライセンスとなります</string>
+    <string name="btnRead">読む</string>
+</resources>

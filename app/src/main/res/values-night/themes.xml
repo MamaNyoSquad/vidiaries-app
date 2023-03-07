@@ -3,11 +3,11 @@
     <style name="Theme.VenusIslandDiaries" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/vidiaries</item>
-        <item name="colorPrimaryVariant">@color/vidiaries_dark</item>
+        <item name="colorPrimaryVariant">@color/vidiaries</item>
         <item name="colorOnPrimary">@color/Nyotengu</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/vidiaries</item>
-        <item name="colorSecondaryVariant">@color/vidiaries_light</item>
+        <item name="colorSecondaryVariant">@color/vidiaries</item>
         <item name="colorOnSecondary">@color/Nyotengu</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>

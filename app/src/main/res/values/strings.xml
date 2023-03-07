@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">Venus Island Diaries</string>
+    <string name="app_name" translatable="false">Venus Island Diaries</string>
     <string name="appSubTitle">Official Publication Sheet</string>
-    <!-- insideStory1 -->
     <string name="btnMainStory">Click here to read the Main Story that\'s in progress.</string>
+    <string name="btnRead">Read</string>
+    <!-- insideStory1 -->
     <string name="insideStory1">Deep Arrogance - Nagisa\'s Inside Story</string>
     <string name="insideStory1_title">Deep Arrogance</string>
     <string name="insideStory1_desc">Nagisa blatantly expresses her desire of disgust the first time she came to the Venus Island, to try and convince her sister to leave immediately. Albeit apologized for what she did, it did come to the conclusion that her constant arrogance over the course became the grounds for some... rather bad events. Could the new Ona-san help her with her situation and put an end to her constant despair?</string>
@@ -10,7 +11,29 @@
     <string name="insideStory2">Admirant of the Past - Fiona\'s Inside Story</string>
     <string name="insideStory2_title">Admirant of the Past</string>
     <string name="insideStory2_desc">Browsing through the biography book were some of her interesting experiences at the island, including her deep affection, revealing her nature of being an admirer. Admitting that it was the previous Owner whom she admired, how could she handle the stresses of being with him back to her faraway home?</string>
-    <!-- copyright -->
+    <!-- insideStory3 -->
+    <string name="insideStory3">Admirant of the Present - Tsukushi\'s Inside Story</string>
+    <string name="insideStory3_title">Admirant of the Present</string>
+    <string name="insideStory3_desc">Following the party is the secret a former tourist doesn’t want to expose. But how will her secrecy be revealed to the new Owner as they go?</string>
+    <!-- insideStory4 -->
+    <string name="insideStory4">Admirant of the Future - Nyotengu\'s Inside Story</string>
+    <string name="insideStory4_title">Admirant of the Future</string>
+    <string name="insideStory4_desc">As Nyotengu’s birthday is just around the corner, the stage is set for the new Owner to help out the three Admirers for the sake of the Venus Island.</string>
+    <!-- insideStory5 -->
+    <string name="insideStory5">Everything went Dark - Luna\'s Inside Story</string>
+    <string name="insideStory5_title">Everything went Dark</string>
+    <string name="insideStory5_desc">The blackout has put the whole operation into a standstill. Could they survive the lingering darkness with Luna’s help?</string>
+    <!-- copyright and licenses -->
     <string name="copyright">Published under #MamaNyoSquad Publishing</string>
     <string name="license">Licensed under CC-BY 4.0 and above</string>
+    <string name="mitLicense" translatable="false">Read the MIT License</string>
+    <!-- dialog boxes -->
+    <string name="gotIt" translatable="false">GOT IT</string>
+    <!-- MIT LICENSE -->
+    <string name="mit_desc" translatable="false">MIT Logo</string>
+    <string name="mitHead1" translatable="false">MIT License</string>
+    <string name="mitHead2" translatable="false">Copyright (c) 2023 #MamaNyoSquad, thebelovedmoon and associates (tbmassoc)</string>
+    <string name="mitBody1" translatable="false">Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</string>
+    <string name="mitBody2" translatable="false">The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</string>
+    <string name="mitBody3" translatable="false">THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
 </resources>

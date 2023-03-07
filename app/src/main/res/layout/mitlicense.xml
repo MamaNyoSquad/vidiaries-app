@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MITred">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="19dp"
+            android:paddingRight="19dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="47.5dp" />
+
+            <ImageView
+                android:id="@+id/mitLogo"
+                android:layout_width="111dp"
+                android:layout_height="97dp"
+                android:contentDescription="@string/mit_desc"
+                app:srcCompat="@drawable/mit"
+                app:tint="@color/white" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="19dp" />
+
+            <TextView
+                android:id="@+id/mitHead1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mitHead1"
+                android:textAlignment="viewStart"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="28.5sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="19dp" />
+
+            <TextView
+                android:id="@+id/mitHead2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mitHead2"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="9.5dp" />
+
+            <TextView
+                android:id="@+id/mitBody1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mitBody1"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="9.5dp" />
+
+            <TextView
+                android:id="@+id/mitBody2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mitBody2"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="9.5dp" />
+
+            <TextView
+                android:id="@+id/mitBody3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mitBody3"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="47.5dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
