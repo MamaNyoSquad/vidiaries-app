@@ -3,6 +3,8 @@
     <string name="appSubTitle">Official Publication Sheet</string>
     <string name="btnMainStory">Click here to read the Main Story that\'s in progress.</string>
     <string name="btnRead">Read</string>
+    <string name="vidiaries_icon" translatable="false">Venus Island Diaries (Icon)</string>
+    <string name="vidiaries_logo" translatable="false">Venus Island Diaries (Logo)</string>
     <!-- insideStory1 -->
     <string name="insideStory1">Deep Arrogance - Nagisa\'s Inside Story</string>
     <string name="insideStory1_title">Deep Arrogance</string>

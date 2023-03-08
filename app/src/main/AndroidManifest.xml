@@ -20,6 +20,10 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".homescreen"
+            android:exported="false">
+        </activity>
+        <activity
             android:name=".MITLicense"
             android:exported="false">
         </activity>
