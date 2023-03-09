@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/vidiaries">
+    android:background="@color/vidiaries"
+    android:navigationBarColor="@color/vidiaries">
 
     <ImageView
         android:id="@+id/vidiaries_icon"
@@ -22,14 +22,15 @@
 
     <ImageView
         android:id="@+id/vidiaries_logo"
-        android:layout_width="190dp"
-        android:layout_height="47.5dp"
-        android:layout_marginTop="95dp"
+        android:layout_width="237.5dp"
+        android:layout_height="57dp"
         android:contentDescription="@string/vidiaries_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vidiaries_icon"
+        app:layout_constraintVertical_bias="0.81"
         app:srcCompat="@drawable/vidiaries_logo"
         app:tint="@color/white" />
 </androidx.constraintlayout.widget.ConstraintLayout>
