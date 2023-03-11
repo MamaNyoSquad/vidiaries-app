@@ -8,7 +8,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
-class homescreen : AppCompatActivity() {
+class HomeScreen : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,34 +22,38 @@ class homescreen : AppCompatActivity() {
 
         val btnMITLicense: Button = findViewById(R.id.btnMITLicense)
         btnMITLicense.setOnClickListener {
-            val mit = Intent(this@homescreen, MITLicense::class.java)
+            val mit = Intent(this@HomeScreen, MITLicense::class.java)
             startActivity(mit)
+        }
+
+        fun notImplemented() {
+            Toast.makeText(applicationContext, "Not implemented yet", Toast.LENGTH_SHORT).show()
         }
 
         val btnInsideStory1: Button = findViewById(R.id.btnInsideStory1)
         btnInsideStory1.setOnClickListener {
-            Toast.makeText(applicationContext, "Not implemented yet", Toast.LENGTH_SHORT).show()
+            notImplemented()
         }
         val btnInsideStory2: Button = findViewById(R.id.btnInsideStory2)
         btnInsideStory2.setOnClickListener {
-            Toast.makeText(applicationContext, "Not implemented yet", Toast.LENGTH_SHORT).show()
+            notImplemented()
         }
         val btnInsideStory3: Button = findViewById(R.id.btnInsideStory3)
         btnInsideStory3.setOnClickListener {
-            Toast.makeText(applicationContext, "Not implemented yet", Toast.LENGTH_SHORT).show()
+            notImplemented()
         }
         val btnInsideStory4: Button = findViewById(R.id.btnInsideStory4)
         btnInsideStory4.setOnClickListener {
-            Toast.makeText(applicationContext, "Not implemented yet", Toast.LENGTH_SHORT).show()
+            notImplemented()
         }
         val btnInsideStory5: Button = findViewById(R.id.btnInsideStory5)
         btnInsideStory5.setOnClickListener {
-            Toast.makeText(applicationContext, "Not implemented yet", Toast.LENGTH_SHORT).show()
+            notImplemented()
         }
-
-
-
-
+        val btnInsideStory6: Button = findViewById(R.id.btnInsideStory6)
+        btnInsideStory6.setOnClickListener {
+            notImplemented()
+        }
     }
 
 }

@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         Handler().postDelayed({
             val i = Intent(
                 this@MainActivity,
-                homescreen::class.java
+                HomeScreen::class.java
             )
             startActivity(i)
             finish()

@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".homescreen"
+            android:name=".HomeScreen"
             android:exported="false">
         </activity>
         <activity

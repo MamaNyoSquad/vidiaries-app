@@ -25,6 +25,14 @@
     <string name="insideStory5">Everything went Dark - Luna\'s Inside Story</string>
     <string name="insideStory5_title">Everything went Dark</string>
     <string name="insideStory5_desc">The blackout has put the whole operation into a standstill. Could they survive the lingering darkness with Luna’s help?</string>
+    <!-- insideStory6 -->
+    <string name="insideStory6">Romantic Perception - Helena\'s Inside Story Pt.1</string>
+    <string name="insideStory6_title">Romantic Perception</string>
+    <string name="insideStory6_desc">The first of Helena’s Inside Story series, focusing on her ample revival of romantic interest as her now-Beloved Owner/Husband takes care of everything else. Let’s begin at how his sixth month on the island became the start of her bloom towards love.</string>
+    <!-- insideStory7 -->
+    <string name="insideStory7">Empty - Helena\'s Inside Story Pt.2</string>
+    <string name="insideStory7_title">Empty</string>
+    <string name="insideStory7_desc">As the relationship between the Head of DOATEC and the new Owner of the Venus Island blooms even further, so are their struggles to express their feelings with each other. To make things difficult, she can’t still comprehend the emptiness inside her weakened heart due to a traumatic incident. Will the new Owner stand up to the task?</string>
     <!-- copyright and licenses -->
     <string name="copyright">Published under #MamaNyoSquad Publishing</string>
     <string name="license">Licensed under CC-BY 4.0 and above</string>
