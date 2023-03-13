@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Venus Island Diaries"
-include ':app'
+include(":app")
