@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         val viMainStory: FloatingActionButton = findViewById(R.id.btnMainStory)
         viMainStory.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://bit.ly./VIDiariesRealTime")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://bit.ly/VIDiariesRealTime")))
         }
 
         val btnMITLicense: Button = findViewById(R.id.btnMITLicense)

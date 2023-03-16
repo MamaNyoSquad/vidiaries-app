@@ -11,8 +11,8 @@ android {
         applicationId = "mamanyosquad.vidiaries"
         minSdk = 21
         targetSdk = 33
-        versionCode = 9
-        versionName = "0.3.2"
+        versionCode = 10
+        versionName = "0.3.3"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         versionNameSuffix = "-prerelease"
