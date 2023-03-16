@@ -9,8 +9,8 @@
         <item name="colorSecondary">@color/vidiaries</item>
         <item name="colorSecondaryVariant">@color/vidiaries</item>
         <item name="colorOnSecondary">@color/Nyotengu</item>
-        <!-- Status bar color. -->
+        <!-- Status and navigation bar color -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">?attr/colorPrimaryVariant</item>
     </style>
 </resources>

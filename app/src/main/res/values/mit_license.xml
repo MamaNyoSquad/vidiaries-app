@@ -1,13 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.VenusIslandDiaries" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.MITLicense" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color -->
-        <item name="colorPrimary">@color/vidiaries</item>
-        <item name="colorPrimaryVariant">@color/vidiaries</item>
+        <item name="colorPrimary">@color/MITred</item>
+        <item name="colorPrimaryVariant">@color/MITred</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color -->
-        <item name="colorSecondary">@color/vidiaries</item>
-        <item name="colorSecondaryVariant">@color/vidiaries</item>
+        <item name="colorSecondary">@color/MITred</item>
+        <item name="colorSecondaryVariant">@color/MITred</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status and navigation bar color -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>

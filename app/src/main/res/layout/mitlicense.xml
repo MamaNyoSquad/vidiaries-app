@@ -28,9 +28,9 @@
                 android:id="@+id/mit_logo"
                 android:layout_width="142.5dp"
                 android:layout_height="95dp"
-                app:tint="@color/white"
+                android:contentDescription="@string/mit_desc"
                 app:srcCompat="@drawable/mit"
-                android:contentDescription="@string/mit_desc" />
+                app:tint="@color/white" />
 
             <Space
                 android:layout_width="match_parent"
