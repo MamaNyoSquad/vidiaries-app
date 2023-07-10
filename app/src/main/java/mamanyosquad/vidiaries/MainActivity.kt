@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnInsideStory1: Button = findViewById(R.id.btnInsideStory1)
         btnInsideStory1.setOnClickListener {
-            notImplemented()
+            startActivity(Intent(this@MainActivity, IS_20210907::class.java))
         }
         val btnInsideStory2: Button = findViewById(R.id.btnInsideStory2)
         btnInsideStory2.setOnClickListener {
