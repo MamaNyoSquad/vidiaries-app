@@ -6,7 +6,7 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
 
-class IS_20210907 : AppCompatActivity() {
+class IS_20211031 : AppCompatActivity() {
 
     private lateinit var viweb: WebView
 
@@ -18,7 +18,7 @@ class IS_20210907 : AppCompatActivity() {
         viweb = findViewById(R.id.viWeb)
         viweb.webViewClient = WebViewClient()
 
-        viweb.loadUrl("https://mamanyosquad.github.io/publishing/insidestory/20210907.html")
+        viweb.loadUrl("https://mamanyosquad.github.io/publishing/insidestory/20211031.html")
         viweb.settings.javaScriptEnabled = true
         viweb.clearCache(true)
     }

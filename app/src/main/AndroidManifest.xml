@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -19,8 +19,8 @@
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
             </intent-filter>
         </activity>
         <activity
@@ -30,6 +30,31 @@
         </activity>
         <activity
             android:name=".IS_20210907"
+            android:exported="false"
+            android:theme="@style/Theme.viWeb">
+        </activity>
+        <activity
+            android:name=".IS_20210920"
+            android:exported="false"
+            android:theme="@style/Theme.viWeb">
+        </activity>
+        <activity
+            android:name=".IS_20211031"
+            android:exported="false"
+            android:theme="@style/Theme.viWeb">
+        </activity>
+        <activity
+            android:name=".IS_20211119_1"
+            android:exported="false"
+            android:theme="@style/Theme.viWeb">
+        </activity>
+        <activity
+            android:name=".IS_20211119_2"
+            android:exported="false"
+            android:theme="@style/Theme.viWeb">
+        </activity>
+        <activity
+            android:name=".IS_20220130"
             android:exported="false"
             android:theme="@style/Theme.viWeb">
         </activity>

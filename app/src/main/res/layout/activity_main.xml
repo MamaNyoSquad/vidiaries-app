@@ -86,8 +86,7 @@
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
                         android:contentDescription="@string/insideStory1"
-                        android:scaleType="fitXY"
-                        card_view:srcCompat="@drawable/insidestory1" />
+                        android:scaleType="fitXY" />
 
                     <TextView
                         android:id="@+id/insideStory1_title"
@@ -161,8 +160,7 @@
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
                         android:contentDescription="@string/insideStory2"
-                        android:scaleType="fitXY"
-                        card_view:srcCompat="@drawable/insidestory2" />
+                        android:scaleType="fitXY" />
 
                     <TextView
                         android:id="@+id/insideStory2_title"
@@ -235,8 +233,7 @@
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
                         android:contentDescription="@string/insideStory3"
-                        android:scaleType="fitXY"
-                        card_view:srcCompat="@drawable/insidestory3" />
+                        android:scaleType="fitXY" />
 
                     <TextView
                         android:id="@+id/insideStory3_title"
@@ -309,8 +306,7 @@
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
                         android:contentDescription="@string/insideStory4"
-                        android:scaleType="fitXY"
-                        card_view:srcCompat="@drawable/insidestory4" />
+                        android:scaleType="fitXY" />
 
                     <TextView
                         android:id="@+id/insideStory4_title"
@@ -383,8 +379,7 @@
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
                         android:contentDescription="@string/insideStory5"
-                        android:scaleType="fitXY"
-                        card_view:srcCompat="@drawable/insidestory5" />
+                        android:scaleType="fitXY" />
 
                     <TextView
                         android:id="@+id/insideStory5_title"
@@ -458,8 +453,7 @@
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
                         android:contentDescription="@string/insideStory6"
-                        android:scaleType="fitXY"
-                        card_view:srcCompat="@drawable/insidestory6" />
+                        android:scaleType="fitXY" />
 
                     <TextView
                         android:id="@+id/insideStory6_title"
