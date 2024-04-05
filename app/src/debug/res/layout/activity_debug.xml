@@ -5,17 +5,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".DebugActivity">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/btnMainStory"
+        android:id="@+id/btnReleaseNotes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
         android:clickable="true"
         android:contentDescription="@string/btnMainStory"
         android:focusable="true"
-        android:src="@drawable/vidiaries_icon"
+        android:src="@drawable/android_icon"
         android:tooltipText="@string/tooltip"
         app:backgroundTint="@color/Nyotengu"
         app:elevation="4.75dp"
@@ -41,6 +41,23 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="95dp" />
+
+            <TextView
+                android:id="@+id/preview_notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                android:fontFamily="@font/eb_garamond"
+                android:text="@string/preview_notice"
+                android:textAlignment="center"
+                android:textColor="@color/MITred"
+                android:textSize="14.25sp"
+                android:textStyle="bold" />
 
             <Space
                 android:layout_width="match_parent"

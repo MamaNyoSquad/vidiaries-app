@@ -8,15 +8,17 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/vidiaries_adaptive"
-        android:roundIcon="@mipmap/vidiaries_adaptive_round"
+        android:icon="@mipmap/pre_vidiaries_adaptive"
+        android:roundIcon="@mipmap/pre_vidiaries_adaptive_round"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        tools:targetApi="31">
+        android:theme="@style/Theme.VIDiariesSplashPRE"
+        tools:targetApi="31"
+        tools:replace="android:icon, android:roundIcon, android:theme">
         <activity
-            android:name=".MainActivity"
+            android:name=".DebugActivity"
             android:exported="true"
-            android:theme="@style/Theme.VIDiariesSplash">
+            android:theme="@style/Theme.VIDiariesSplashPRE">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

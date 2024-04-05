@@ -1,12 +1,13 @@
 <resources>
-    <string name="app_name" translatable="false">Venus Island Diaries</string>
+    <string name="app_name" translatable="false">Venus Island Diaries (Preview)</string>
     <string name="appSubTitle">Official Publication Sheet</string>
     <string name="btnMainStory">Click here to read the Main Story that\'s in progress.</string>
     <string name="btnRead">Read</string>
     <string name="vidiaries_icon" translatable="false">Venus Island Diaries (Icon)</string>
     <string name="vidiaries_logo" translatable="false">Venus Island Diaries (Logo)</string>
     <string name="KotlinFirst" translatable="false">Kotlin-First</string>
-    <string name="tooltip" translatable="false">Read the Main Story</string>
+    <!-- this section must be removed on release editions -->
+    <string name="preview_notice" translatable="false">This app is currently in preview mode, giving you bleeding-edge access to all the new features leading to the public release!</string>
     <!-- insideStory1 -->
     <string name="insideStory1">Deep Arrogance - Nagisa\'s Inside Story</string>
     <string name="insideStory1_title">Deep Arrogance</string>

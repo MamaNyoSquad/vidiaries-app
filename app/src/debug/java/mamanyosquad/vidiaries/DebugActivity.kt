@@ -16,21 +16,21 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import java.util.concurrent.Executors
 
 
-class MainActivity : AppCompatActivity() {
+class DebugActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         installSplashScreen()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_debug)
 
-        val viMainStory: FloatingActionButton = findViewById(R.id.btnMainStory)
-        viMainStory.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://bit.ly/VIDiariesRealTime")))
+        val viReleaseNotes: FloatingActionButton = findViewById(R.id.btnReleaseNotes)
+        viReleaseNotes.setOnClickListener {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://mamanyosquad.github.io/publishing/app")))
         }
 
         val btnMITLicense: Button = findViewById(R.id.btnMITLicense)
         btnMITLicense.setOnClickListener {
-            startActivity(Intent(this@MainActivity, MITLicense::class.java))
+            startActivity(Intent(this@DebugActivity, MITLicense::class.java))
         }
 
         fun notImplemented() {
@@ -39,27 +39,27 @@ class MainActivity : AppCompatActivity() {
 
         val btnInsideStory1: Button = findViewById(R.id.btnInsideStory1)
         btnInsideStory1.setOnClickListener {
-            startActivity(Intent(this@MainActivity, IS_20210907::class.java))
+            startActivity(Intent(this@DebugActivity, IS_20210907::class.java))
         }
         val btnInsideStory2: Button = findViewById(R.id.btnInsideStory2)
         btnInsideStory2.setOnClickListener {
-            startActivity(Intent(this@MainActivity, IS_20210920::class.java))
+            startActivity(Intent(this@DebugActivity, IS_20210920::class.java))
         }
         val btnInsideStory3: Button = findViewById(R.id.btnInsideStory3)
         btnInsideStory3.setOnClickListener {
-            startActivity(Intent(this@MainActivity, IS_20211031::class.java))
+            startActivity(Intent(this@DebugActivity, IS_20211031::class.java))
         }
         val btnInsideStory4: Button = findViewById(R.id.btnInsideStory4)
         btnInsideStory4.setOnClickListener {
-            startActivity(Intent(this@MainActivity, IS_20211119_1::class.java))
+            startActivity(Intent(this@DebugActivity, IS_20211119_1::class.java))
         }
         val btnInsideStory5: Button = findViewById(R.id.btnInsideStory5)
         btnInsideStory5.setOnClickListener {
-            startActivity(Intent(this@MainActivity, IS_20211119_2::class.java))
+            startActivity(Intent(this@DebugActivity, IS_20211119_2::class.java))
         }
         val btnInsideStory6: Button = findViewById(R.id.btnInsideStory6)
         btnInsideStory6.setOnClickListener {
-            startActivity(Intent(this@MainActivity, IS_20220130::class.java))
+            startActivity(Intent(this@DebugActivity, IS_20220130::class.java))
         }
 
         val insideStory1_head: ImageView = findViewById(R.id.insideStory1_head)
