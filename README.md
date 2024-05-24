@@ -20,10 +20,9 @@ Thank you so much for your continued support, and we hope to stay in touch with 
 
 <hr style="border-top: 4px solid gray">
 
-# Venus Island Diaries - Official App
+# Venus Island Diaries - Official App 🏖️
 
-This repository houses all the files needed for development of this publication app!
-Maintained by the SquadMates, this will be the home of all the Inside Stories written by the G.Mgr!
+This repository houses all the files needed for development of this publication app! Maintained by the SquadMates, this will be the home of all the Inside Stories written by the G.Mgr!
 
 # Software
 
@@ -31,10 +30,8 @@ This app is developed under Android Studio with Kotlin. Additional features may 
 
 # Installing the App
 
-Head over to the [Releases](https://github.com/MamaNyoSquad/vidiaries-app/releases) tab for details.
-We'll update on our progress once in a while.
+Head over to the [Releases](https://github.com/MamaNyoSquad/vidiaries-app/releases) tab for details. We'll update on our progress once in a while.
 
 # License
 
-This open-source repository is licensed under MIT (Massachusetts Institute of Technology) License.
-Please refer to [LICENSE](LICENSE) file for details.
+This open-source repository is licensed under MIT (Massachusetts Institute of Technology) License. Please refer to [LICENSE](LICENSE) file for details.
