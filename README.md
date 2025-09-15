@@ -10,7 +10,7 @@ In a statement:
 >
 > Don't worry -- the archival of the repository is still ways off in expectations that some web elements dependent on it may break, so it'll give me more time to polish the final preview release (with migrated URLs). I'll send over the archival state in the foreseeable future.
 
-Read more about the 21 May update [here](https://mamanyosquad.github.io/blog/20240521).
+Read more about the 21 May update [here](https://mamanyosquad.github.io/blog?article=20240521).
 
 ## So, what happens next?
 
