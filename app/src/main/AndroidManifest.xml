@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/vidiaries_adaptive"
+        android:roundIcon="@mipmap/vidiaries_adaptive_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.VIDiariesSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MITLicense"
+            android:exported="false"
+            android:theme="@style/Theme.MITLicense">
+        </activity>
+        <activity
+            android:name=".IS_20210907"
+            android:exported="false"
+            android:theme="@style/Theme.viWeb">
+        </activity>
+        <activity
+            android:name=".IS_20210920"
+            android:exported="false"
+            android:theme="@style/Theme.viWeb">
+        </activity>
+        <activity
+            android:name=".IS_20211031"
+            android:exported="false"
+            android:theme="@style/Theme.viWeb">
+        </activity>
+        <activity
+            android:name=".IS_20211119_1"
+            android:exported="false"
+            android:theme="@style/Theme.viWeb">
+        </activity>
+        <activity
+            android:name=".IS_20211119_2"
+            android:exported="false"
+            android:theme="@style/Theme.viWeb">
+        </activity>
+        <activity
+            android:name=".IS_20220130"
+            android:exported="false"
+            android:theme="@style/Theme.viWeb">
+        </activity>
+    </application>
+
+</manifest>

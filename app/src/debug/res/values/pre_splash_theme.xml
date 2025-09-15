@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Splash Screen Theme. -->
+    <style name="Theme.VIDiariesSplashPRE" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/Nyotengu</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/pre_vidiaries_splash</item>
+        <item name="windowSplashScreenAnimationDuration">4500</item>
+        <item name="postSplashScreenTheme">@style/Theme.VenusIslandDiariesPRE</item>
+
+        <!-- Status bar and Nav bar configs -->
+        <item name="android:statusBarColor">@color/vidiaries</item>
+        <item name="android:navigationBarColor">@color/vidiaries</item>
+    </style>
+</resources>
